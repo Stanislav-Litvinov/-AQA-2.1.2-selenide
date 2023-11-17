@@ -126,5 +126,6 @@ public class TestAppOrder {
         form.$("[type='button']").click();
         $("[data-test-id='agreement'].input_invalid .checkbox__text").shouldHave(exactText("Я соглашаюсь с условиями обработки" +
                 " и использования моих персональных данных и разрешаю сделать запрос в бюро кредитных историй"));
+        
     }
 }
